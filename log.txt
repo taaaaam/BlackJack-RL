@@ -1,0 +1,16 @@
+ESTIMATE of time to complete assignment: 16 hours
+
+      Time     Time
+Date  Started  Spent Work completed
+----  -------  ----  --------------
+12/09  4:00pm  0:45 Discussed what game to work on. Looked into games such as 2048, Connect 4, Battleship. Decided on BlackJack
+12/11  3:00pm  1:45 Discussed what algorithms to implement, recorded video. 
+12/12  7:00pm  2:00 Mapped out structure of program. Started to implement Dealer, Hand, and Environment in classes.py
+12/14  9:00pm  2:30 Finished implementing Dealer, Hand, Environment. Implemented Agent. Started implementation of Q-learning agent
+12/15  8:00pm  3:00 Worked on Q-learning agent and First Visit MC agent in parallel. Resolved bugs in classes.py. Began testing.
+12/16  7:30pm  2:00 Continued to work on Q-learning and FVMC in parallel. Refactored code for reusability. Implemented baseline agent
+12/17  8:00pm  2:30 Finished Q-learning and FVMC. Had extra time so began implementing SARSA and TD agents.
+12/18  3:00pm  1:30 Finished SARSA and TD agents. Wrote log, test script and updated the makefile. 
+               ----
+               16:00  TOTAL time spent
+

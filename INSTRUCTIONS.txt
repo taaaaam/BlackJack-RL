@@ -1,0 +1,7 @@
+The game of BlackJack involves a player playing against the dealer, trying to obtain a higher hand without going over 21. 
+To run the program, simply run ./BlackJack. This will begin to run Q-learning, First Visit Monte Carlo, the baseline agent,
+temporal difference learning, and SARSA respectively, training on 500,000 rounds and testing on 20,000 rounds. The output 
+indicates the winning average. We found that all the agents except for the TD agent performs very similar, with ~41.5 - 42.3% win rate. 
+First Visit Monte Carlo consistently plays the best out of the different algorithms, with a higher average of ~42.5-43.0%. TD has the worst
+performance, with only a ~37.5-38.5% win rate. The baseline agent is a greedy agent that hits when their hand is <= 14, which we found to be 
+the best heuristic.
